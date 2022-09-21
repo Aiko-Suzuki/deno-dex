@@ -1,6 +1,6 @@
 /*eslint max-len: 0, no-var:0 */
 
-import { Buffer } from "https://deno.land/std@0.90.0/node/buffer.ts?s=Buffer";
+import { Buffer } from "https://deno.land/std@0.156.0/node/buffer.ts";
 
 export const charsRegex = /[\0\b\t\n\r\x1a" '\\]/g; // eslint-disable-line no-control-regex
 export const charsMap = {
