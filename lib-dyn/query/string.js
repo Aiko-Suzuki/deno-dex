@@ -2,7 +2,7 @@
 
 import { Buffer } from "https://deno.land/std@0.90.0/node/buffer.ts?s=Buffer";
 
-export const charsRegex = /[\0\b\t\n\r\x1a"'\\]/g; // eslint-disable-line no-control-regex
+export const charsRegex = /[\0\b\t\n\r\x1a" '\\]/g; // eslint-disable-line no-control-regex
 export const charsMap = {
   '\0': '\\0',
   '\b': '\\b',
